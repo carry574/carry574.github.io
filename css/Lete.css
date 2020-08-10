@@ -1,0 +1,19 @@
+/* 首页中间打字效果上方 */
+#page-header #site_title {
+    color: #9e2e2e;
+}
+/* 顶部导航栏 */
+#nav a {
+    color: #5a2031;
+}
+
+/* 博主昵称颜色 */
+.author-info__name {
+    color: #ff7242;
+}
+
+/* 页脚透明 */
+
+#footer {
+    background: transparent !important;
+}

@@ -2235,7 +2235,7 @@ blockquote footer cite:before {
 }
 @media screen and (min-width: 900px) {
   #aside_content .card-widget {
-    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 .category-content ul {
@@ -2460,6 +2460,13 @@ blockquote footer cite:before {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+}
+#footer:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  content: '';
 }
 #footer-wrap {
   position: relative;
@@ -2970,6 +2977,9 @@ _:future,
   margin: 0 auto;
   padding: 2rem 15px;
   max-width: 1200px;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
 }
 #recent-posts {
   width: 75%;
@@ -3407,6 +3417,22 @@ _:future,
   }
   #recent-posts .recent-post-item .recent-post-info .content {
     height: auto;
+  }
+}
+@media screen and (min-width: 900px) {
+  #recent-posts,
+  #page,
+  .category-content,
+  #archive,
+  .tag-cloud,
+  #tag,
+  #category {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -o-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
   }
 }
 @media screen and (max-width: 900px) {
