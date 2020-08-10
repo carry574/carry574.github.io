@@ -2,14 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.carryone.top/2020/08/10/Hexo%E6%B7%BB%E5%8A%A0live2d%E7%9C%8B%E6%9D%BF%E5%A8%98%E6%A8%A1%E5%9E%8B/</loc>
+    <loc>https://www.carryone.top/about/index.html</loc>
     
     <lastmod>2020-08-10</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.carryone.top/about/index.html</loc>
+    <loc>https://www.carryone.top/link/index.html</loc>
+    
+    <lastmod>2020-08-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.carryone.top/2020/08/10/Hexo%E6%B7%BB%E5%8A%A0live2d%E7%9C%8B%E6%9D%BF%E5%A8%98%E6%A8%A1%E5%9E%8B/</loc>
     
     <lastmod>2020-08-10</lastmod>
     
