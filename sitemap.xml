@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.carryone.top/2020/08/12/%E4%BB%B2%E6%81%BA%E5%AD%A6%E5%AD%90%EF%BC%8C%E5%89%8D%E7%A8%8B%E4%BC%BC%E9%94%A6/</loc>
+    
+    <lastmod>2020-08-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.carryone.top/2020/08/10/8_10%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
     
     <lastmod>2020-08-10</lastmod>
@@ -53,7 +60,7 @@
 
   <url>
     <loc>https://www.carryone.top/</loc>
-    <lastmod>2020-08-10</lastmod>
+    <lastmod>2020-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -61,7 +68,7 @@
   
   <url>
     <loc>https://www.carryone.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2020-08-10</lastmod>
+    <lastmod>2020-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
