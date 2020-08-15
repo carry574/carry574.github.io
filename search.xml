@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>DAY01:DOS命令</title>
+      <link href="/2020/08/15/DOS%E5%91%BD%E4%BB%A4/"/>
+      <url>/2020/08/15/DOS%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h2 id="DAY01-DOS命令"><a href="#DAY01-DOS命令" class="headerlink" title="DAY01:DOS命令"></a>DAY01:DOS命令</h2><p>1、常用DOS命令<br>    1.1、怎么打开DOS命令窗口？</p><a id="more"></a><blockquote><p><strong>win键+r（组合键）</strong>：可以打开”运行窗口”<br>在窗口文本框输入：<strong>cmd</strong><br>然后回车即可。</p></blockquote><p>1.2、什么是DOS命令呢？<br>在DOS命令窗口中才可以输入并执行DOS命令。<br>在最初的windows计算机中没有图形界面，只有DOS命令窗口。<br>也就是说通过执行DOS命令窗口可以完成文件的创建、保存、删除等一系列操作。</p><p>1.3、在DOS命令窗口中如何复制内容？</p><blockquote><p>选中内容- -&gt;按ctrl+c键复制- -&gt;在粘贴的位置点击鼠标右键<br>即可完成内容的复制粘贴</p></blockquote><p>1.4、DOS命令窗口中如何切换盘符？<br><strong>直接输入盘符即可。</strong><br>C：回车<br>D：回车<br>就🆗了。</p><p>当切换到D盘时，当前的根路径是：D:&gt;<br>当前路径就是当前所在的位置。</p><p>1.5、DOS命令窗口如何切换目录？<br>使用cd命令来完成目录的切换：cd即change directory（改变目录）<br>cd的语法格式为：</p><blockquote><p><strong>cd + 路径</strong></p></blockquote><p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816001703606.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816001758345.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习日常 </tag>
+            
+            <tag> Java学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>仲恺学子，前程似锦</title>
       <link href="/2020/08/12/%E4%BB%B2%E6%81%BA%E5%AD%A6%E5%AD%90%EF%BC%8C%E5%89%8D%E7%A8%8B%E4%BC%BC%E9%94%A6/"/>
       <url>/2020/08/12/%E4%BB%B2%E6%81%BA%E5%AD%A6%E5%AD%90%EF%BC%8C%E5%89%8D%E7%A8%8B%E4%BC%BC%E9%94%A6/</url>
