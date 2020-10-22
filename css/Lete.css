@@ -10,3 +10,10 @@
 #footer {
     background: transparent !important;
 }
+
+/*Lete个人博客颜色修改*/
+
+#page-header #site_title {
+    color: #FFFFFF;
+    /* color: black; */
+}
