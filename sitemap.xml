@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.carryone.top/2020/08/15/DOS%E5%91%BD%E4%BB%A4/</loc>
+    <loc>https://www.carryone.top/about/index.html</loc>
     
-    <lastmod>2020-08-15</lastmod>
+    <lastmod>2021-08-01</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.carryone.top/about/index.html</loc>
+    <loc>https://www.carryone.top/2020/08/15/DOS%E5%91%BD%E4%BB%A4/</loc>
     
     <lastmod>2020-08-15</lastmod>
     
@@ -74,7 +74,7 @@
 
   <url>
     <loc>https://www.carryone.top/</loc>
-    <lastmod>2020-10-22</lastmod>
+    <lastmod>2021-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -82,21 +82,21 @@
   
   <url>
     <loc>https://www.carryone.top/tags/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2020-10-22</lastmod>
+    <lastmod>2021-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.carryone.top/tags/Java%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2020-10-22</lastmod>
+    <lastmod>2021-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.carryone.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2020-10-22</lastmod>
+    <lastmod>2021-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
