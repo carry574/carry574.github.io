@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>米奇GiaoGiao屋</title>
+  
+  <subtitle>山不过来，我便过去。</subtitle>
+  <link href="https://www.carryone.top/atom.xml" rel="self"/>
+  
+  <link href="https://www.carryone.top/"/>
+  <updated>2020-08-15T16:21:10.489Z</updated>
+  <id>https://www.carryone.top/</id>
+  
+  <author>
+    <name>山不过来，我便过去</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DAY01:DOS命令</title>
+    <link href="https://www.carryone.top/2020/08/15/DOS%E5%91%BD%E4%BB%A4/"/>
+    <id>https://www.carryone.top/2020/08/15/DOS%E5%91%BD%E4%BB%A4/</id>
+    <published>2020-08-15T15:35:10.000Z</published>
+    <updated>2020-08-15T16:21:10.489Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="DAY01-DOS命令"><a href="#DAY01-DOS命令" class="headerlink" title="DAY01:DOS命令"></a>DAY01:DOS命令</h2><p>1、常用DOS命令<br>    1.1、怎么打开DOS命令窗口？</p><a id="more"></a><blockquote><p><strong>win键+r（组合键）</strong>：可以打开”运行窗口”<br>在窗口文本框输入：<strong>cmd</strong><br>然后回车即可。</p></blockquote><p>1.2、什么是DOS命令呢？<br>在DOS命令窗口中才可以输入并执行DOS命令。<br>在最初的windows计算机中没有图形界面，只有DOS命令窗口。<br>也就是说通过执行DOS命令窗口可以完成文件的创建、保存、删除等一系列操作。</p><p>1.3、在DOS命令窗口中如何复制内容？</p><blockquote><p>选中内容- -&gt;按ctrl+c键复制- -&gt;在粘贴的位置点击鼠标右键<br>即可完成内容的复制粘贴</p></blockquote><p>1.4、DOS命令窗口中如何切换盘符？<br><strong>直接输入盘符即可。</strong><br>C：回车<br>D：回车<br>就🆗了。</p><p>当切换到D盘时，当前的根路径是：D:&gt;<br>当前路径就是当前所在的位置。</p><p>1.5、DOS命令窗口如何切换目录？<br>使用cd命令来完成目录的切换：cd即change directory（改变目录）<br>cd的语法格式为：</p><blockquote><p><strong>cd + 路径</strong></p></blockquote><p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816001703606.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200816001758345.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;DAY01-DOS命令&quot;&gt;&lt;a href=&quot;#DAY01-DOS命令&quot; class=&quot;headerlink&quot; title=&quot;DAY01:DOS命令&quot;&gt;&lt;/a&gt;DAY01:DOS命令&lt;/h2&gt;&lt;p&gt;1、常用DOS命令&lt;br&gt;    1.1、怎么打开DOS命令窗口？&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="学习日常" scheme="https://www.carryone.top/tags/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="Java学习" scheme="https://www.carryone.top/tags/Java%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>起点</title>
+    <link href="https://www.carryone.top/2020/08/10/8_10%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
+    <id>https://www.carryone.top/2020/08/10/8_10%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</id>
+    <published>2020-08-10T15:35:10.000Z</published>
+    <updated>2020-08-10T15:48:14.356Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="起点"><a href="#起点" class="headerlink" title="起点"></a>起点</h2><blockquote><p>**即使世界荒芜，总有一个人他会是你的信徒</p></blockquote><p><strong>我希望你能活出最精彩的自己” “我希望你能见识到令你惊奇的事物” “我希望你能体验从未有过的情感”“我希望你能遇见一些想法不同的人” “我希望你能为你自己的人生感到骄傲” “如果你发现自己还没有做到” “我希望你有勇气重头再来。</strong></p><a id="more"></a><p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200810234357466.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200810234217913.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;起点&quot;&gt;&lt;a href=&quot;#起点&quot; class=&quot;headerlink&quot; title=&quot;起点&quot;&gt;&lt;/a&gt;起点&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;**即使世界荒芜，总有一个人他会是你的信徒&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;我希望你能活出最精彩的自己” “我希望你能见识到令你惊奇的事物” “我希望你能体验从未有过的情感”“我希望你能遇见一些想法不同的人” “我希望你能为你自己的人生感到骄傲” “如果你发现自己还没有做到” “我希望你有勇气重头再来。&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="生活记录" scheme="https://www.carryone.top/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在Hexo添加live2d看板娘</title>
+    <link href="https://www.carryone.top/2020/08/10/Hexo%E6%B7%BB%E5%8A%A0live2d%E7%9C%8B%E6%9D%BF%E5%A8%98%E6%A8%A1%E5%9E%8B/"/>
+    <id>https://www.carryone.top/2020/08/10/Hexo%E6%B7%BB%E5%8A%A0live2d%E7%9C%8B%E6%9D%BF%E5%A8%98%E6%A8%A1%E5%9E%8B/</id>
+    <published>2020-08-10T06:35:10.000Z</published>
+    <updated>2020-08-10T06:51:59.445Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="在Hexo添加live2d看板娘模型"><a href="#在Hexo添加live2d看板娘模型" class="headerlink" title="在Hexo添加live2d看板娘模型"></a>在Hexo添加live2d看板娘模型</h2><p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/2020081012063219.PNG" alt="在这里插入图片描述"><br>==haruto这个模型 我爱了==</p><a id="more"></a><h2 id="1-首先安装npm包"><a href="#1-首先安装npm包" class="headerlink" title="1.首先安装npm包"></a>1.首先安装npm包</h2><ul><li>配置环境变量 </li><li>打开cmd.exe,输入:</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">//查看版本号是否安装成功$ <span class="token function">npm</span> -v<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="2-下载hexo"><a href="#2-下载hexo" class="headerlink" title="2.下载hexo"></a>2.下载hexo</h2><ul><li>输入命令</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">//下载hexo客户端$ <span class="token function">npm</span> <span class="token function">install</span> -g hexo-cli<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ul><li>同样环境变量</li></ul><h2 id="3-在本地新建文件myblog-作为博客资源文件夹"><a href="#3-在本地新建文件myblog-作为博客资源文件夹" class="headerlink" title="3.在本地新建文件myblog(作为博客资源文件夹)"></a>3.在本地新建文件myblog(作为博客资源文件夹)</h2><ul><li>输入命令</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">//初始化刚新建的myblog文件夹$ hexo init myblog$ <span class="token builtin class-name">cd</span> blog$ hexo instal<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><ul><li>这时blog就会生成以下文件</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200810115944114.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><h2 id="4-第一个博客出来了，我们试试运行"><a href="#4-第一个博客出来了，我们试试运行" class="headerlink" title="4.第一个博客出来了，我们试试运行"></a>4.第一个博客出来了，我们试试运行</h2><ul><li>输入命令</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">//启动命令<span class="token punctuation">(</span>完整命令:hexo server<span class="token punctuation">)</span>$ hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="5-回到当前窗口myblog路径输入命令："><a href="#5-回到当前窗口myblog路径输入命令：" class="headerlink" title="5.回到当前窗口myblog路径输入命令："></a>5.回到当前窗口myblog路径输入命令：</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">//下载live2d包$ <span class="token function">npm</span> <span class="token function">install</span> --save hexo-helper-live2d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ul><li>再下载模型</li></ul><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">//下载模型$ <span class="token function">npm</span> <span class="token function">install</span> live2d-widget-model-hibiki<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p><strong>#更多模型选择</strong></p><p>live2d-widget-model-chitose<br>live2d-widget-model-epsilon2_1<br>live2d-widget-model-gf<br>live2d-widget-model-haru/01 (use npm install –save live2d-widget-model-haru)<br>live2d-widget-model-haru/02 (use npm install –save live2d-widget-model-haru)<br>live2d-widget-model-haruto<br>live2d-widget-model-hibiki<br>live2d-widget-model-hijiki<br>live2d-widget-model-izumi<br>live2d-widget-model-koharu<br>live2d-widget-model-miku<br>live2d-widget-model-ni-j<br>live2d-widget-model-nico<br>live2d-widget-model-nietzsche<br>live2d-widget-model-nipsilon<br>live2d-widget-model-nito<br>live2d-widget-model-shizuku<br>live2d-widget-model-tororo<br>live2d-widget-model-tsumiki<br>live2d-widget-model-unitychan<br>live2d-widget-model-wanko<br>live2d-widget-model-z16</p><h2 id="6-下载完模型后在根目录的-node-modules-文件夹下找到刚才下载的live2d-widget-model-hibiki模型，将其复制到新建目录-live2d-models-下"><a href="#6-下载完模型后在根目录的-node-modules-文件夹下找到刚才下载的live2d-widget-model-hibiki模型，将其复制到新建目录-live2d-models-下" class="headerlink" title="6.下载完模型后在根目录的 node_modules 文件夹下找到刚才下载的live2d-widget-model-hibiki模型，将其复制到新建目录 live2d_models 下"></a>6.下载完模型后在根目录的 node_modules 文件夹下找到刚才下载的live2d-widget-model-hibiki模型，将其复制到新建目录 live2d_models 下</h2><p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200810120349315.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><h2 id="7-在根目录-config-yml配置下添加以下参数，唯一改变是参数model-use-是下载模型名称"><a href="#7-在根目录-config-yml配置下添加以下参数，唯一改变是参数model-use-是下载模型名称" class="headerlink" title="7.在根目录_config.yml配置下添加以下参数，唯一改变是参数model.use 是下载模型名称"></a>7.在根目录_config.yml配置下添加以下参数，唯一改变是参数model.use 是下载模型名称</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment">#参数配置</span>live2d: enable: <span class="token boolean">true</span> scriptFrom: <span class="token builtin class-name">local</span> pluginRootPath: live2dw/ pluginJsPath: lib/ pluginModelPath: assets/ tagMode: <span class="token boolean">false</span> debug: <span class="token boolean">false</span> model:   use: live2d-widget-model-haruto   <span class="token comment">#下载模型参数</span> display:   position: right   width: <span class="token number">150</span>   height: <span class="token number">300</span> mobile:   show: <span class="token boolean">true</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><hr><h2 id="最后再次运行-hexo-s，看效果，右下角萌萌哒看板娘出来了"><a href="#最后再次运行-hexo-s，看效果，右下角萌萌哒看板娘出来了" class="headerlink" title="最后再次运行$hexo s，看效果，右下角萌萌哒看板娘出来了"></a>最后再次运行$hexo s，看效果，右下角萌萌哒看板娘出来了</h2><p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20200810120617570.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;在Hexo添加live2d看板娘模型&quot;&gt;&lt;a href=&quot;#在Hexo添加live2d看板娘模型&quot; class=&quot;headerlink&quot; title=&quot;在Hexo添加live2d看板娘模型&quot;&gt;&lt;/a&gt;在Hexo添加live2d看板娘模型&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/2020081012063219.PNG&quot; alt=&quot;在这里插入图片描述&quot;&gt;&lt;br&gt;==haruto这个模型 我爱了==&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
