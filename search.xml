@@ -11,6 +11,12 @@
         <content type="html"><![CDATA[<p>根据某城市普通出租车收费标准编写程序进行车费计算。具体标准如下：</p><ul><li>起步里程为3公里，起步费10元；</li><li>超起步里程后10公里内，每公里2元；</li><li>超过10公里以上的部分加收50%的回空补贴费，即每公里3元；</li><li>营运过程中，因路阻及乘客要求临时停车的，按每5分钟2元计收（不足5分钟则不收费）。</li></ul><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式:"></a>输入格式:</h2><p>输入在一行中给出输入行驶里程（单位为公里，精确到小数点后1位）与等待时间（整数，单位为分钟），其间以空格分隔。</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式:"></a>输出格式:</h2><p>在一行中输出乘客应支付的车费（单位为元），结果四舍五入，保留到元。</p><h2 id="输入样例"><a href="#输入样例" class="headerlink" title="输入样例:"></a>输入样例:</h2><blockquote><p>2.6    2</p></blockquote><h2 id="输出样例"><a href="#输出样例" class="headerlink" title="输出样例:"></a>输出样例:</h2><blockquote><p>10</p></blockquote><hr><h2 id="JavaScript代码："><a href="#JavaScript代码：" class="headerlink" title="JavaScript代码："></a>JavaScript代码：</h2><pre class="line-numbers language-handlebars" data-language="handlebars"><code class="language-handlebars">const readline =require('readline');const rl=readline.createInterface(&#123;    input:process.stdin,&#125;);let buf=[]rl.on('line',(line)=>&#123;    buf.push(line)&#125;)rl.on('close',()=>&#123;    const arr=buf[0].split(' ');    let money=10;    if(arr[0]>3&amp;&amp;arr[0]&lt;=10)&#123;        money+=(arr[0]-3) *2;    &#125;else if(arr[0]>10)&#123;        money+=7*2;        money+=(arr[0]-10) *3;    &#125;     money+=Math.floor(arr[1]/5)*2;   console.log(Math.round(money));&#125;);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><hr>]]></content>
       
       
+      <categories>
+          
+          <category> PTA JavaScript </category>
+          
+      </categories>
+      
       
         <tags>
             
