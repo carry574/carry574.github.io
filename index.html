@@ -159,6 +159,109 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.carryone.top/2022/01/16/%E5%87%BA%E7%A7%9F%E8%BD%A6%E8%AE%A1%E4%BB%B7-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/myself.JPG">
+      <meta itemprop="name" content="林凯锐">
+      <meta itemprop="description" content="前端爱好者在线磕磕碰碰。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="林凯锐的个人博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/01/16/%E5%87%BA%E7%A7%9F%E8%BD%A6%E8%AE%A1%E4%BB%B7-1/" class="post-title-link" itemprop="url">出租车计价</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-01-16 00:14:00 / 修改时间：00:16:42" itemprop="dateCreated datePublished" datetime="2022-01-16T00:14:00+08:00">2022-01-16</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>根据某城市普通出租车收费标准编写程序进行车费计算。具体标准如下：</p>
+<ul>
+<li>起步里程为3公里，起步费10元；</li>
+<li>超起步里程后10公里内，每公里2元；</li>
+<li>超过10公里以上的部分加收50%的回空补贴费，即每公里3元；</li>
+<li>营运过程中，因路阻及乘客要求临时停车的，按每5分钟2元计收（不足5分钟则不收费）。</li>
+</ul>
+<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式:"></a>输入格式:</h2><p>输入在一行中给出输入行驶里程（单位为公里，精确到小数点后1位）与等待时间（整数，单位为分钟），其间以空格分隔。</p>
+<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式:"></a>输出格式:</h2><p>在一行中输出乘客应支付的车费（单位为元），结果四舍五入，保留到元。</p>
+<h2 id="输入样例"><a href="#输入样例" class="headerlink" title="输入样例:"></a>输入样例:</h2><blockquote>
+<p>2.6    2</p>
+</blockquote>
+<h2 id="输出样例"><a href="#输出样例" class="headerlink" title="输出样例:"></a>输出样例:</h2><blockquote>
+<p>10</p>
+</blockquote>
+<hr>
+<h2 id="JavaScript代码："><a href="#JavaScript代码：" class="headerlink" title="JavaScript代码："></a>JavaScript代码：</h2><pre class="line-numbers language-handlebars" data-language="handlebars"><code class="language-handlebars">const readline =require('readline');
+const rl=readline.createInterface(&#123;
+    input:process.stdin,
+&#125;);
+let buf=[]
+
+rl.on('line',(line)=>&#123;
+    buf.push(line)
+&#125;)
+
+rl.on('close',()=>&#123;
+    const arr=buf[0].split(' ');
+    let money=10;
+    if(arr[0]>3&amp;&amp;arr[0]&lt;=10)&#123;
+        money+=(arr[0]-3) *2;
+    &#125;else if(arr[0]>10)&#123;
+        money+=7*2;
+        money+=(arr[0]-10) *3;
+    &#125;
+
+     money+=Math.floor(arr[1]/5)*2;
+   console.log(Math.round(money));
+&#125;);
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<hr>
+
+      
+    </div>
+<div>
+    
+</div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://www.carryone.top/2020/08/15/DOS%E5%91%BD%E4%BB%A4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -183,14 +286,14 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2020-08-15 23:35:10" itemprop="dateCreated datePublished" datetime="2020-08-15T23:35:10+08:00">2020-08-15</time>
+              <time title="创建时间：2020-08-15 23:35:00" itemprop="dateCreated datePublished" datetime="2020-08-15T23:35:00+08:00">2020-08-15</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-08-16 00:21:10" itemprop="dateModified" datetime="2020-08-16T00:21:10+08:00">2020-08-16</time>
+                <time title="修改时间：2022-01-16 00:18:28" itemprop="dateModified" datetime="2022-01-16T00:18:28+08:00">2022-01-16</time>
               </span>
 
           
@@ -204,82 +307,10 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="DAY01-DOS命令"><a href="#DAY01-DOS命令" class="headerlink" title="DAY01:DOS命令"></a>DAY01:DOS命令</h2><p>1、常用DOS命令<br>    1.1、怎么打开DOS命令窗口？</p>
+          <p>1、常用DOS命令<br>    1.1、怎么打开DOS命令窗口？</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2020/08/15/DOS%E5%91%BD%E4%BB%A4/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-<div>
-    
-</div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.carryone.top/2020/08/10/8_10%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/myself.JPG">
-      <meta itemprop="name" content="林凯锐">
-      <meta itemprop="description" content="前端爱好者在线磕磕碰碰。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="林凯锐的个人博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/08/10/8_10%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/" class="post-title-link" itemprop="url">起点</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-08-10 23:35:10 / 修改时间：23:48:14" itemprop="dateCreated datePublished" datetime="2020-08-10T23:35:10+08:00">2020-08-10</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="起点"><a href="#起点" class="headerlink" title="起点"></a>起点</h2><blockquote>
-<p>**即使世界荒芜，总有一个人他会是你的信徒</p>
-</blockquote>
-<p><strong>我希望你能活出最精彩的自己” “我希望你能见识到令你惊奇的事物” “我希望你能体验从未有过的情感”“我希望你能遇见一些想法不同的人” “我希望你能为你自己的人生感到骄傲” “如果你发现自己还没有做到” “我希望你有勇气重头再来。</strong></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/08/10/8_10%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -329,10 +360,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-08-10 14:35:10 / 修改时间：14:51:59" itemprop="dateCreated datePublished" datetime="2020-08-10T14:35:10+08:00">2020-08-10</time>
+              <time title="创建时间：2020-08-10 14:35:00" itemprop="dateCreated datePublished" datetime="2020-08-10T14:35:00+08:00">2020-08-10</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-01-16 00:19:19" itemprop="dateModified" datetime="2022-01-16T00:19:19+08:00">2022-01-16</time>
+              </span>
 
           
 
@@ -345,7 +382,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="在Hexo添加live2d看板娘模型"><a href="#在Hexo添加live2d看板娘模型" class="headerlink" title="在Hexo添加live2d看板娘模型"></a>在Hexo添加live2d看板娘模型</h2><p><img src="https://img-blog.csdnimg.cn/2020081012063219.PNG" alt="在这里插入图片描述"><br>==haruto这个模型 我爱了==</p>
+          <p><img src="https://img-blog.csdnimg.cn/2020081012063219.PNG" alt="在这里插入图片描述"><br>==haruto这个模型 我爱了==</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2020/08/10/Hexo%E6%B7%BB%E5%8A%A0live2d%E7%9C%8B%E6%9D%BF%E5%A8%98%E6%A8%A1%E5%9E%8B/#more" rel="contents">
