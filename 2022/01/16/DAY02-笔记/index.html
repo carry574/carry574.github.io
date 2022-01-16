@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"www.carryone.top","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="1、Java编程语言是Sun Microsystems公司的James Gosling在1990年创建的，于1995年公布于世（一般说Java诞生于1995年）。Java是一门面向对象的编程语言，不仅吸收了C++语言的各种优点，还摒弃了C++难以理解的多继承、指针等概念。因此Java语言具有功能强大和简单易用的两个特征。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DAY02 笔记">
+<meta property="og:url" content="https://www.carryone.top/2022/01/16/DAY02-%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:site_name" content="林凯锐的个人博客">
+<meta property="og:description" content="1、Java编程语言是Sun Microsystems公司的James Gosling在1990年创建的，于1995年公布于世（一般说Java诞生于1995年）。Java是一门面向对象的编程语言，不仅吸收了C++语言的各种优点，还摒弃了C++难以理解的多继承、指针等概念。因此Java语言具有功能强大和简单易用的两个特征。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-01-16T04:24:00.000Z">
+<meta property="article:modified_time" content="2022-01-16T04:35:36.661Z">
+<meta property="article:author" content="林凯锐">
+<meta property="article:tag" content="JavaSE">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://www.carryone.top/2022/01/16/DAY02-%E7%AC%94%E8%AE%B0/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>DAY02 笔记 | 林凯锐的个人博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="林凯锐的个人博客" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">林凯锐的个人博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">山不过来，我便过去。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.carryone.top/2022/01/16/DAY02-%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/myself.JPG">
+      <meta itemprop="name" content="林凯锐">
+      <meta itemprop="description" content="前端爱好者在线磕磕碰碰。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="林凯锐的个人博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          DAY02 笔记
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-01-16 12:24:00 / 修改时间：12:35:36" itemprop="dateCreated datePublished" datetime="2022-01-16T12:24:00+08:00">2022-01-16</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%8A%A8%E5%8A%9B%E8%8A%82%E7%82%B9JavaSE/" itemprop="url" rel="index"><span itemprop="name">动力节点JavaSE</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>1、Java编程语言是Sun Microsystems公司的James Gosling在1990年创建的，于1995年公布于世（一般说Java诞生于1995年）。Java是一门面向对象的编程语言，不仅吸收了C++语言的各种优点，还摒弃了C++难以理解的多继承、指针等概念。因此Java语言具有功能强大和简单易用的两个特征。</p>
+<a id="more"></a>
+<p>2、JAVA语言概述及发展史<br>    JDK（Java开发工具箱，做JAVA开发必须安装的，这是最根本的一个环境。）<br>    JDK不是集成开发环境，他是Java最核心的库。<br>    前往甲骨文官网下载JDK，exe文件</p>
+<pre><code>98年的时候：Java升级到JDK1.2，Java被分为三大块：
+    J2SE：标准版（基础，要学Java，必须先学习SE。基础语法+基础库）
+    J2EE：企业版（专门为企业开发软件，为企业提供解决方案。例如：OA办公系统和医疗服务等。）
+
+Java诞生十周年改了名字：
+    JavaSE
+    JavaEE
+    JavaME</code></pre>
+<p>3、Java语言的特性：<br>    1、简单性：Java语言底层采用C++语言实现。<br>    在Java语言中真正操作内存的是：JVM（Java虚拟机）所有的java程序中都是运行在Java虚拟机当中的。<br>    对于C或者C++更灵活，可以直接程序员操作内存，但要求程序员技术精湛。<br>    Java语言屏蔽了指针概念，程序员不能直接操作指针，或者说程序员不能直接操作内存。这种方式有优点也有缺点。<br>        优点：不容易导致内存泄漏。<br>        缺点：效率问题，包括驾驶感比较差。</p>
+<pre><code>例如飞机航行：
+    如果是C语言表示程序员是飞机的驾驶员。
+    如果是Java表示程序员是飞机上的乘客。
+
+因为Java语言的低层是C++，所以JVM是用C++语言写好的一个虚拟的电脑。
+计算机安装好JDK后，JVM也代表安装完毕。
+
+2、面向对象
+    Java是完全面向对象的。
+    面向对象更容易让人理解，人类通常是以对象的方式认知世界的。
+    采用面向对象的方式可以让复杂的问题简单化。
+
+3、健壮性
+    主要是因为Java中有一种机制：
+        自动垃圾回收机制（GC机制）。
+    Java不容易导致内存泄漏
+
+    JVM负责调度GC机制，程序员不需要干涉。
+
+4、可移植性/跨平台
+    Java语言只要编写一次，可以做到到处运行。
+    例如：Java程序编写完之后，可以运行在windows操作系统上， 不需要做任何改动可以直接运行在Linux操作系统上，同样也可以运行在Mac os上。
+    一次编写，到处运行。（平台改变了，程序不需要改变。）
+    跨平台性：通过Java语言编写的应用程序在不同的系统平台上都可以运行
+
+    1.1、JVM这种机制实现了跨平台，那么这种机制优点和缺点是什么？
+        优点：一次编写到处运行，可以跨平台。
+        缺点：麻烦。对于运行Java程序来说必须要有一个JVM。就像你想在网页上看视频，你必须先安装一个flash一样。
+
+    1.2、Java语言可以编写病毒吗？
+        可以，没问题。但是很难让用户中毒。
+        中毒的一般都是java程序员。所以很少有人编写java的病毒脚本。</code></pre>
+<p>4、Java完全/完美支持多线程并发</p>
+<p>5、JDK、JRE、JVM三者之间的关系？<br>    JDK：Java开发工具箱<br>    JRE：Java运行环境<br>    JVM：Java虚拟机</p>
+<pre><code>JDK包括JRE，JRE包括JVM
+
+JVM不可以独立安装。
+JRE和JDK都是可以独立安装的。
+也有单独的JDK的安装包，没有单独的JVM安装包。
+
+安装JDK的时候：JRE就自动安装了，同时JRE内部的JVM也就自动安装了。
+安装JRE的时候：JVM也就自动安装了。
+
+问题1：
+    假设你在软件公司开发了一个新的软件，现在要去客户那边给客户把项目部署一下，把项目跑起来，你需要安装JDK吗？
+        答：只需要安装JRE就可以了，JRE体积很小，安装非常便捷快速。
+
+问题2：
+    为什么安装JDK的时候会带一个JRE？
+        答：因为Java程序员开发完程序之后，要测试这个程序。
+        让这个程序运行起来，需要JRE。所以安装JDK的时候内部会自带一个JRE。</code></pre>
+<p>6、Java程序的加载与执行的理解<br>    java程序从编写到最终运行经历了两个阶段：<br>1、编译阶段<br>    2、运行阶段</p>
+<pre><code>注意：java程序员直接编写的java代码（普通文本）是无法执行被JVM识别的。java程序员编写到的java代码这种普通文本必须经过一个编译，将这个“普通文本代码”变成“字节码”，JVM能够识别“字节码”。
+java代码这种普通文本变成字节码的过程，被称为：编译。
+
+java代码这种普通文本被称为：java源代码。（你编写的代码是源代码）
+源代码不能直接执行，需要先进行编译，生成源代码对应的“字节码”
+JVM可以识别的是字节码。</code></pre>
+<p>问题1：<br>    编译阶段和运行阶段可以在不同的操作系统上完成吗？<br>        答：完全可以，因为java是可跨平台的，可以做到一次编写，到处运行。<br>        在windows上编译<br>        编译之后生成“字节码”<br>        把“字节码”放在linux上运行。</p>
+<p>问题2：<br>    Java源代码一旦编译之后，源代码可以删除吗？只留下字节码可以执行吗？<br>        答：完全可以执行，因为源代码不参与程序的执行过程。<br>        参与程序执行过程是字节码。<br>        但是最好不要删除源代码，因为有可能执行结果不是你需要的。<br>        当执行结果不是你需要的时候，你可以重新打开源代码进行修改，然后重新编译生成新的字节码，在重新执行。这样会有新的执行效果。</p>
+<p>7、需要注意的是：<br>    1、放源代码的文件扩展名必须是：xxx.java<br>    2、编译生成的字节码文件扩展名是：xxx.class</p>
+<pre><code>.java文件就是源文件，这个文件中编写源代码。
+.class文件就是字节码文件，这个文件是编译源代码而得到的。
+
+另外注意的是：
+    1个java文件是可以编译生成多个class文件的。
+    最终运行的是class文件。</code></pre>
+<p>问题1：<br>    字节码文件是二进制文件吗？<br>        答：字节码文件不是二进制文件。<br>        如果是二进制的话，就不需要JVM了。<br>        因为操作系统可以直接执行二进制。</p>
+<pre><code>Java程序的加载与执行的理解
+    java程序从编写到最终运行经历了两个阶段：
+    1、编译阶段
+    2、运行阶段
+
+注意：java程序员直接编写的java代码（普通文本）是无法执行被JVM识别的。java程序员编写到的java代码这种普通文本必须经过一个编译，将这个“普通文本代码”变成“字节码”，JVM能够识别“字节码”。
+java代码这种普通文本变成字节码的过程，被称为：编译。
+
+java代码这种普通文本被称为：java源代码。（你编写的代码时源代码）
+源代码不能直接执行，需要先进行编译，生成源代码对应的“字节码”
+JVM可以识别的是字节码。</code></pre>
+<p>JAVA程序加载与运行：<br>    Java程序员从开发到最终运行经历了什么？<br>        第一步：在硬盘的某个位置，新建一个xxx.java文件<br>        第二步：使用记事本或者其他文本编辑器打开xxx.java文件<br>        第三步：在xxx.java文件中编写“符合java语法规则的”源代码。<br>        第四步：保存（一定要将xxx.java文件保存一下）<br>        第五步：使用编译器（javac【JDK安装后自带】）对xxx.java文件进行编译。<br>        第六步：如果xxx.java文件中编写的源代码是符合语法规则的，编译会通过，如果xxx.java文件中编写的源代码违背了语法规则，那么编译器会报错，编译器报错之后class文件是不会生成的，只有编译通过了之后才会生成class字节码文件。并且一个java源文件是可以生成多个class文件的。（编译实质上是检查语法）</p>
+<pre><code>运行期：（可以在windows上，也可以在其他的os上。）
+    第七步：如果实在Linux上运行，需要将windows上生成的class文件拷贝过去，不需要拷贝源代码，真正运行的是字节码。（但是源代码也不要删除，有用）
+    第八步：使用JDK自带的一个命名/工具：java（负责运行的命令/工具）执行字节码
+    第九步：往下的步骤就全部交给JVM了，就不需要程序员干涉了。
+        JVM会将字节码文件全部装载进去，然后JVM对字节码进行解释（解释器负责将字节码解释为1010101010..等的二进制）
+    第十步：JVM会将生成的二进制代码交给os操作系统，操作系统会执行二进制码和硬件进行交互。
+
+⚠注意：在以上过程中，需要使用两个重要的命令
+    1、javac 命令，负责编译    2、java 命令，负责运行
+
+⚠当编译不能显示中文时，输入（两种方式）：
+    1、javac -encoding UTF-8 ***.java
+    2、记事本打开java源文件，另存为选择ANSI编码
+
+⚠当编译时出现：错误: 编码 GBK 的不可映射字符 (0xBA)
+    输入javac  -encoding utf-8  文件名.java</code></pre>
+
+    </div>
+<div>
+    
+        
+    
+</div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/JavaSE/" rel="tag"># JavaSE</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/01/16/%E5%87%BA%E7%A7%9F%E8%BD%A6%E8%AE%A1%E4%BB%B7-1/" rel="prev" title="出租车计价">
+      <i class="fa fa-chevron-left"></i> 出租车计价
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/01/16/DAY03-%E7%AC%94%E8%AE%B0/" rel="next" title="DAY03 笔记">
+      DAY03 笔记 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="林凯锐"
+      src="/images/myself.JPG">
+  <p class="site-author-name" itemprop="name">林凯锐</p>
+  <div class="site-description" itemprop="description">前端爱好者在线磕磕碰碰。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="/924754880@qq.com" title="E-Mail → 924754880@qq.com"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">林凯锐</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/haruto.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
+</html>

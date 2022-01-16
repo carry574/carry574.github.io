@@ -2,30 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.carryone.top/2022/01/16/%E5%87%BA%E7%A7%9F%E8%BD%A6%E8%AE%A1%E4%BB%B7-1/</loc>
+    <loc>https://www.carryone.top/2022/01/16/DAY03-%E7%AC%94%E8%AE%B0/</loc>
     
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-16</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.carryone.top/2020/08/10/Hexo%E6%B7%BB%E5%8A%A0live2d%E7%9C%8B%E6%9D%BF%E5%A8%98%E6%A8%A1%E5%9E%8B/</loc>
     
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-16</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.carryone.top/2020/08/15/DOS%E5%91%BD%E4%BB%A4/</loc>
+    <loc>https://www.carryone.top/2022/01/16/%E5%87%BA%E7%A7%9F%E8%BD%A6%E8%AE%A1%E4%BB%B7-1/</loc>
     
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.carryone.top/2022/01/16/DAY02-%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2022-01-16</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.carryone.top/about/index.html</loc>
     
-    <lastmod>2021-08-01</lastmod>
+    <lastmod>2022-01-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.carryone.top/2020/08/15/DOS%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2022-01-16</lastmod>
     
   </url>
   
@@ -60,7 +74,7 @@
 
   <url>
     <loc>https://www.carryone.top/</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -68,21 +82,28 @@
   
   <url>
     <loc>https://www.carryone.top/tags/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.carryone.top/tags/JavaScript/</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.carryone.top/tags/Linux/</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.carryone.top/tags/JavaSE/</loc>
+    <lastmod>2022-01-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -91,7 +112,14 @@
   
   <url>
     <loc>https://www.carryone.top/categories/PTA-JavaScript/</loc>
-    <lastmod>2022-01-15</lastmod>
+    <lastmod>2022-01-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.carryone.top/categories/%E5%8A%A8%E5%8A%9B%E8%8A%82%E7%82%B9JavaSE/</loc>
+    <lastmod>2022-01-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
