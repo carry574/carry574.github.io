@@ -20,24 +20,24 @@
     var CONFIG = {"hostname":"www.carryone.top","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="1、常用DOS命令    1.1、怎么打开DOS命令窗口？">
+  <meta name="description" content="1、开发第一个Java程序：HelloWorld    1.1、程序写完之后，一定要Ctrl + S 进行保存        ⚠另外需要注意的是：Java源代码只要修改，必须重新编译。        重新生成.class字节码文件。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="DAY01:DOS命令">
-<meta property="og:url" content="https://www.carryone.top/2020/08/15/DOS%E5%91%BD%E4%BB%A4/index.html">
+<meta property="og:title" content="DAY04  笔记">
+<meta property="og:url" content="https://www.carryone.top/2022/01/16/DAY04-%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="林凯锐的个人博客">
-<meta property="og:description" content="1、常用DOS命令    1.1、怎么打开DOS命令窗口？">
+<meta property="og:description" content="1、开发第一个Java程序：HelloWorld    1.1、程序写完之后，一定要Ctrl + S 进行保存        ⚠另外需要注意的是：Java源代码只要修改，必须重新编译。        重新生成.class字节码文件。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200816001703606.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70#pic_center">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200816001758345.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70#pic_center">
-<meta property="article:published_time" content="2020-08-15T15:35:00.000Z">
-<meta property="article:modified_time" content="2022-01-16T04:21:11.045Z">
+<meta property="og:image" content="https://www.carryone.top/img/DAY04-1.png">
+<meta property="og:image" content="https://www.carryone.top/img/day04-2.png">
+<meta property="og:image" content="https://www.carryone.top/img/day04-3.png">
+<meta property="article:published_time" content="2022-01-16T05:12:00.000Z">
+<meta property="article:modified_time" content="2022-01-16T05:24:14.640Z">
 <meta property="article:author" content="林凯锐">
 <meta property="article:tag" content="JavaSE">
-<meta property="article:tag" content="Linux">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20200816001703606.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70#pic_center">
+<meta name="twitter:image" content="https://www.carryone.top/img/DAY04-1.png">
 
-<link rel="canonical" href="https://www.carryone.top/2020/08/15/DOS%E5%91%BD%E4%BB%A4/">
+<link rel="canonical" href="https://www.carryone.top/2022/01/16/DAY04-%E7%AC%94%E8%AE%B0/">
 
 
 <script id="page-configurations">
@@ -50,7 +50,7 @@
   };
 </script>
 
-  <title>DAY01:DOS命令 | 林凯锐的个人博客</title>
+  <title>DAY04  笔记 | 林凯锐的个人博客</title>
   
 
 
@@ -172,7 +172,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.carryone.top/2020/08/15/DOS%E5%91%BD%E4%BB%A4/">
+    <link itemprop="mainEntityOfPage" href="https://www.carryone.top/2022/01/16/DAY04-%E7%AC%94%E8%AE%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/myself.JPG">
@@ -185,7 +185,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          DAY01:DOS命令
+          DAY04  笔记
         </h1>
 
         <div class="post-meta">
@@ -194,16 +194,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2020-08-15 23:35:00" itemprop="dateCreated datePublished" datetime="2020-08-15T23:35:00+08:00">2020-08-15</time>
+              <time title="创建时间：2022-01-16 13:12:00 / 修改时间：13:24:14" itemprop="dateCreated datePublished" datetime="2022-01-16T13:12:00+08:00">2022-01-16</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-01-16 12:21:11" itemprop="dateModified" datetime="2022-01-16T12:21:11+08:00">2022-01-16</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -225,23 +219,88 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>1、常用DOS命令<br>    1.1、怎么打开DOS命令窗口？</p>
-<a id="more"></a>
-<blockquote>
-<p><strong>win键+r（组合键）</strong>：可以打开”运行窗口”<br>在窗口文本框输入：<strong>cmd</strong><br>然后回车即可。</p>
-</blockquote>
-<p>1.2、什么是DOS命令呢？<br>在DOS命令窗口中才可以输入并执行DOS命令。<br>在最初的windows计算机中没有图形界面，只有DOS命令窗口。<br>也就是说通过执行DOS命令窗口可以完成文件的创建、保存、删除等一系列操作。</p>
-<p>1.3、在DOS命令窗口中如何复制内容？</p>
-<blockquote>
-<p>选中内容- -&gt;按ctrl+c键复制- -&gt;在粘贴的位置点击鼠标右键<br>即可完成内容的复制粘贴</p>
-</blockquote>
-<p>1.4、DOS命令窗口中如何切换盘符？<br><strong>直接输入盘符即可。</strong><br>C：回车<br>D：回车<br>就🆗了。</p>
-<p>当切换到D盘时，当前的根路径是：D:&gt;<br>当前路径就是当前所在的位置。</p>
-<p>1.5、DOS命令窗口如何切换目录？<br>使用cd命令来完成目录的切换：cd即change directory（改变目录）<br>cd的语法格式为：</p>
-<blockquote>
-<p><strong>cd + 路径</strong></p>
-</blockquote>
-<p><img src="https://img-blog.csdnimg.cn/20200816001703606.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200816001758345.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjYyOTkyOA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+        <p>1、开发第一个Java程序：HelloWorld<br>    1.1、程序写完之后，一定要Ctrl + S 进行保存<br>        ⚠另外需要注意的是：Java源代码只要修改，必须重新编译。<br>        重新生成.class字节码文件。<br>    <a id="more"></a><br>    1.2、编译阶段<br>        怎么编译？使用什么命令？这个命令怎么用？<br>        需要使用的命令是：javac.exe（存放在C盘的Java目录里）<br>        这个命令需要先测试一下，打开DOS命令窗口，看看javac命令是否可用。</p>
+<pre><code>    测试javac后发现windows找不到文件在哪？
+        配置path环境变量。
+        配置path环境变量的步骤：
+            桌面计算机上右键- -&gt;属性- -&gt;高级系统设置- -&gt;环境变量
+        让javac.exe能用，配置哪个路径到path中？
+            找到javac.exe的文件路径复制到path变量里。
+
+⚠注意：修改完环境变量后，DOS命令窗口必须关闭重新打开才会起作用。
+
+
+
+java命令怎么用？
+    语法格式：
+        javac java源文件的路径
+什么是java源文件？
+    java源文件的名字是以“.java”结尾，该文件中写了java源代码。
+    ○ java源文件的路径：直接把Java源文件拖入DOS命令窗口就出现java源文件的路径。
+
+    ○ 在java源文件上方的路径里输入cmd即可帮助cmd快速定位到java源文件路径。
+
+1.3、运行阶段
+    运行的前提是：class文件（字节码）生成了。没有字节码文件程序是无法运行的。
+        假设该文件的名字叫做：HelloWorld.class
+        那么HelloWorld就称为一个类名。
+
+    怎么运行？使用哪个命令？
+        使用JDK的bin目录下的：javac.exe命令来运行。
+
+    先在DOS命令窗口中测试javac.exe命令是否可以使用。
+        Java -version
+
+    &quot;java.exe“这个命令怎么用，语法格式是什么？？
+        格式：Java + 空格 +类名
+
+    运行java程序需要哪些步骤？
+        第一步：先使用cd命令切换到xxx.class文件所在的路径。
+            或者在文件所在路径输入cmd定位。
+        第二步：执行java 类名
+            切记：Java命令后面只要是跟路径，就一定不行，只能是跟类名。</code></pre>
+<p>2、“java HelloWorld”的执行过程及原理</p>
+<pre><code>C:\Users\Carry\Desktop\JAVA&gt;java java1 敲完回车后发生什么？
+    第一步：会先启动JVM（java虚拟机）
+
+    第二步：JVM启动之后，JVM会去启动&quot;类加载器classloader“
+        类加载器的作用：加载类的，本质上类加载器负责去找“类”对应的“字节码”文件。
+        假设是“java HelloWorld”，那么类加载器会去硬盘上搜索：HelloWorld.class文件。
+        假设是“java test”，那么类加载器会去硬盘上搜索：test.class文件。
+
+    类加载器如果在硬盘上找不到对应的字节码文件的话会报错，报错什么内容？
+            错误：找不到或无法加载主类
+        类加载器如果在硬盘上找到了对应的字节码文件，类加载器会将该字节码文件装载到JVM当中，JVM启动“解释器”将字节码解释为“10101011…”这种的二进制码，操作系统执行二进制码和硬件交互。
+
+问题1：默认情况下，类加载器去硬盘哪里找对应的字节码文件？
+    Java 类目执行后，类加载器会在当前路径下找对应的字节码文件加载。
+
+问题2：能不能给类加载器指定一个路径，让类加载器去指定的路径下加载字节码文件？
+    可以的，但我们要设置一个环境变量，叫做：class.path。
+
+问题3：class.path是一个环境变量，是给谁指路的？
+    是给“类加载器”指路的。
+    classpath环境变量不属于windows，classpath环境变量隶属于java。
+    在没有配置环境变量的classpath的时候，默认从但前路径下加载。
+    如果配置了classpath环境变量之后，只能去指定的路径下加载了。
+
+    ⚠非常重要的一个特点：配置了classpath=D:\xxxx目录之后，类加载器只会去xxxx目录找对应的字节码文件。
+        classpath环境变量不需要配置，到JavaWeb时才需要配置classpath环境变量。</code></pre>
+<p>3、在高版本的JDK当中，有这样一个特性，可以一步到位：<br>    Java x\z\y.java<br>    java后面加源文件的路径。<br>    这个特性是为了简化开发而提出，但实际上底层的实现原理还是和以前一样的，以上命令在执行过程中，还是会先进行编译，然后再运行。<br>    并且以上的运行方式，编译生成的class文件在硬盘上不存在，看不见。</p>
+<p>4、关于第一个Java程序代码的解释说明（注释）：<br>    注释在程序中不起作用，只是对程序进行解释说明。<br>    /* 1、什么是注释，有什么用？<br>        注释是对Java源代码的解释说明<br>        注释可以帮程序员更好地理解程序<br>    2、注释信息只保存在Java源文件当中，Java源文件编译生成的字节码class文件中是没有注释信息的<br>    3、程序员应有良好的写注释习惯。<br>    4、另外这种注释可以注释多行内容。 */</p>
+<pre><code>// 这种是单行注释，只注释两个斜杠后面的内容。</code></pre>
+<p>5、⚠注意：<br>    1、在JAVA中任何有效的代码必须写到“类体”当中，最外层必须是一个类的定义。<br>    2、public表示公开的，class表示定义一个类，Test是一个类名。类名后面必须是一对大括号，这一对大括号被称为“类体”<br>    3、括号必须是成对的。并且建议都要成对编写，这样才不会丢掉。{}、[]、()</p>
+<p>public class Test  //声明/定义一个公开的类，起个名字叫Test<br>    {  //大括号内都是类体。<br>    //整个这一块的代码被称为：main方法（程序的入口，sun公司java语言规定的）<br>    public static void main(String[] args) {<br>    //JVM在执行程序的时候，会主动去找这样一个方法。没有这个规格的方法，程序就无法执行。<br>    //注意：方法必须放在“类体”中，不能放在“类体”外面。<br>    //注意：方法体由一行一行的java语句构成。<br>        System.out.println(“Test”);<br>    //每个语句都要以英文分号结束。<br>    //语句内容要加英文””双引号。数字可以不加双引号。<br>        System.out.println(“test2”);<br>    }<br>}<br>    大括号里有main方法可以编译运行。</p>
+<p>1、一个java源文件可以定义多个class。<br>2、public的类不是必须的。<br>3、在源文件中只要有一个class的定义，那么必然就会生成一个对应的class文件。<br>4、 public的类可以没有，但是如果又public修饰的类名必须和源文件名保持一致。<br>5、public的类有且只能有一个。<br>6、测试想从哪个入口进去执行，就加载哪个类：java 类名。</p>
+<p>常见错误：<br>1、没有定义则编译报错：找不到符号。<br>2、找不带文件<br>3、单词拼写问题<br>4、括号匹配问题<br>5、中英文问题</p>
+<p>程序解析：<br>• 首先编写java源代码程序，扩展名.java<br>• 在命令行模式中，输入javac命令对源代码进行编译，生成字节码文件<br>    • javac 源文件名.java<br>• 编译完成后，如果没有报错信息，输入java命令对class字节码文件进行解释运行,执行时不需要添加.class扩展名<br>    • java HelloWorld</p>
+<p>初学者编程应养成习惯：先将思路用注释方式写出来再进行编程。</p>
+<p>练习题：</p>
+<p><img src="/img/DAY04-1.png" alt="overwrote existing file"></p>
+<p>作业1：</p>
+<p><img src="/img/day04-2.png" alt="upload successful"></p>
+<p>作业2：</p>
+<p><img src="/img/day04-3.png" alt="upload successful"></p>
 
     </div>
 <div>
@@ -257,7 +316,6 @@
       <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/JavaSE/" rel="tag"># JavaSE</a>
-              <a href="/tags/Linux/" rel="tag"># Linux</a>
           </div>
 
         
@@ -266,13 +324,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/08/10/Hexo%E6%B7%BB%E5%8A%A0live2d%E7%9C%8B%E6%9D%BF%E5%A8%98%E6%A8%A1%E5%9E%8B/" rel="prev" title="在Hexo添加live2d看板娘">
-      <i class="fa fa-chevron-left"></i> 在Hexo添加live2d看板娘
+    <a href="/2022/01/16/DAY03-%E7%AC%94%E8%AE%B0/" rel="prev" title="DAY03 笔记">
+      <i class="fa fa-chevron-left"></i> DAY03 笔记
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2022/01/16/%E5%87%BA%E7%A7%9F%E8%BD%A6%E8%AE%A1%E4%BB%B7-1/" rel="next" title="出租车计价">
-      出租车计价 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     

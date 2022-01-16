@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.carryone.top/2022/01/16/DAY04-%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2022-01-16</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.carryone.top/2022/01/16/DAY03-%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2022-01-16</lastmod>
@@ -81,14 +88,7 @@
 
   
   <url>
-    <loc>https://www.carryone.top/tags/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2022-01-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.carryone.top/tags/JavaScript/</loc>
+    <loc>https://www.carryone.top/tags/JavaSE/</loc>
     <lastmod>2022-01-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -102,7 +102,14 @@
   </url>
   
   <url>
-    <loc>https://www.carryone.top/tags/JavaSE/</loc>
+    <loc>https://www.carryone.top/tags/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/</loc>
+    <lastmod>2022-01-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.carryone.top/tags/JavaScript/</loc>
     <lastmod>2022-01-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -111,14 +118,14 @@
 
   
   <url>
-    <loc>https://www.carryone.top/categories/PTA-JavaScript/</loc>
+    <loc>https://www.carryone.top/categories/%E5%8A%A8%E5%8A%9B%E8%8A%82%E7%82%B9JavaSE/</loc>
     <lastmod>2022-01-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.carryone.top/categories/%E5%8A%A8%E5%8A%9B%E8%8A%82%E7%82%B9JavaSE/</loc>
+    <loc>https://www.carryone.top/categories/PTA-JavaScript/</loc>
     <lastmod>2022-01-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
