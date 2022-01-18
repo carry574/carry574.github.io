@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.carryone.top/2022/01/18/Untitled/</loc>
+    
+    <lastmod>2022-01-18</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.carryone.top/about/index.html</loc>
     
     <lastmod>2022-01-16</lastmod>
@@ -126,6 +133,13 @@
   
   <url>
     <loc>https://www.carryone.top/categories/PTA-JavaScript/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.carryone.top/categories/JavaScript/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

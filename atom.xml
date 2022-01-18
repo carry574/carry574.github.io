@@ -6,7 +6,7 @@
   <link href="https://www.carryone.top/atom.xml" rel="self"/>
   
   <link href="https://www.carryone.top/"/>
-  <updated>2022-01-16T05:24:14.640Z</updated>
+  <updated>2022-01-18T12:49:20.794Z</updated>
   <id>https://www.carryone.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript是什么？</title>
+    <link href="https://www.carryone.top/2022/01/18/Untitled/"/>
+    <id>https://www.carryone.top/2022/01/18/Untitled/</id>
+    <published>2022-01-18T12:38:00.000Z</published>
+    <updated>2022-01-18T12:49:20.794Z</updated>
+    
+    <content type="html"><![CDATA[<p>JavaScript（简称“JS”）是一种<strong>轻量级的面向对象的编程语言</strong>，既能用在浏览器中控制页面交互，也能用在服务器端作为网站后台（借助 Node.js），因此 JavaScript 是一种全栈式的编程语言，在 Web 开发领域有着举足轻重的地位。</p><p>JavaScript 是一种跨平台的解释型脚本语言，不需要提前编译，能在各种操作系统下运行；JavaScript代码不能独立运行，通常情况下我们需要借助浏览器来运行JavaScript代码，所有Web浏览器都支持。</p><p>JavaScript 可以用于 Web 开发的各个领域，例如：</p><pre><code>1、Web 应用开发：日常生活中我们所浏览的网页都是由 HTML、CSS、JavaScript 构成的，通过 JavaScript 可以实时更新网页中元素的样式，并可以实现人与网页之间的交互（例如监听用户是否点击了鼠标或按下了某个按键等），还可以在网页中添加一些炫酷的动画；-移动应用开发：除了可以进行 Web 应用开发外，JavaScript 还可以用来开发手机或平板电脑上的应用程序，而且我们还可以借助一些优秀的框架（例如 React Native），让开发更加轻松；2、 Web 游戏：我们在网页中玩过的那些小游戏，都可以使用 JavaScript 来实现；3、 后端 Web 应用开发：以前我们都是使用 JavaScript 来进行 Web 应用程序前端部分的开发，但随着 Node.JS（一个 JavaScript 运行环境）的出现，使得 JavaScript 也可以用来开发 Web 应用程序的后端部分。</code></pre><p><em>JavaScript 最初被称为 LiveScript，由 Netscape（Netscape Communications Corporation，网景通信公司）公司的布兰登·艾奇（Brendan Eich）在 1995 年开发。在 Netscape 与 Sun（一家互联网公司，全称为“Sun Microsystems”，现已被甲骨文公司收购）合作之后将其更名为了 JavaScript。</em></p><p><em>之所以将 LiveScript 更名为 JavaScript，是因为 JavaScript 是受 Java 的启发而设计的，因此在语法上它们有很多相似之处 ，JavaScript 中的许多命名规范也都借鉴自 Java，还有一个原因就是为了营销，蹭 Java 的热度。</em></p><p><img src="/img/JavaScript1/js1-1.jpg" alt="upload successful"></p><p>同一时期，微软和 Nombas（一家名为 Nombas 的公司）也分别开发了 JScript 和 ScriptEase 两种脚本语言，与 JavaScript 形成了三足鼎立之势。它们之间没有统一的标准，不能互用。为了解决这一问题，1997 年，在 ECMA（欧洲计算机制造商协会）的协调下，Netscape、Sun、微软、Borland（一家软件公司）组成了工作组，并以 JavaScript 为基础制定了 ECMA-262 标准（ECMAScript）。<br>第二年，ISO/IEC（国际标准化组织及国际电工委员会）也采用了 ECMAScript 作为标准（即 ISO/IEC-16262）。</p><p><strong>JavaScript的特点</strong></p><ol><li><p>解释型脚本语言<br>JavaScript 是一种解释型脚本语言，与 C、C++ 等语言需要先编译再运行不同，使用 JavaScript 编写的代码不需要编译，可以直接运行。</p></li><li><p>面向对象<br>JavaScript 是一种面向对象语言，使用 JavaScript 不仅可以创建对象，也能操作使用已有的对象。</p></li><li><p>弱类型<br>JavaScript 是一种弱类型的编程语言，对使用的数据类型没有严格的要求，例如您可以将一个变量初始化为任意类型，也可以随时改变这个变量的类型。</p></li><li><p>动态性<br>JavaScript 是一种采用事件驱动的脚本语言，它不需要借助 Web 服务器就可以对用户的输入做出响应，例如我们在访问一个网页时，通过鼠标在网页中进行点击或滚动窗口时，通过JavaScript可以直接对这些事件做出响应。</p></li><li><p>跨平台<br>JavaScript 不依赖操作系统，在浏览器中就可以运行。因此一个 JavaScript 脚本在编写完成后可以在任意系统上运行，只需要系统上的浏览器支持 JavaScript 即可。</p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;JavaScript（简称“JS”）是一种&lt;strong&gt;轻量级的面向对象的编程语言&lt;/strong&gt;，既能用在浏览器中控制页面交互，也能用在服务器端作为网站后台（借助 Node.js），因此 JavaScript 是一种全栈式的编程语言，在 Web 开发领域有着举足轻重的</summary>
+      
+    
+    
+    
+    <category term="JavaScript" scheme="https://www.carryone.top/categories/JavaScript/"/>
+    
+    
+    <category term="JavaScript" scheme="https://www.carryone.top/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>DAY04  笔记</title>
