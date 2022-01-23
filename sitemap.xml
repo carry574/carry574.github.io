@@ -151,6 +151,13 @@
 
   
   <url>
+    <loc>https://www.carryone.top/tags/CSS/</loc>
+    <lastmod>2022-01-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.carryone.top/tags/JavaSE/</loc>
     <lastmod>2022-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -179,13 +186,6 @@
   </url>
   
   <url>
-    <loc>https://www.carryone.top/tags/CSS/</loc>
-    <lastmod>2022-01-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.carryone.top/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2022-01-23</lastmod>
     <changefreq>daily</changefreq>
@@ -195,14 +195,14 @@
 
   
   <url>
-    <loc>https://www.carryone.top/categories/%E5%8A%A8%E5%8A%9B%E8%8A%82%E7%82%B9JavaSE/</loc>
+    <loc>https://www.carryone.top/categories/CSS/</loc>
     <lastmod>2022-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.carryone.top/categories/PTA-JavaScript/</loc>
+    <loc>https://www.carryone.top/categories/%E5%8A%A8%E5%8A%9B%E8%8A%82%E7%82%B9JavaSE/</loc>
     <lastmod>2022-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -216,14 +216,14 @@
   </url>
   
   <url>
-    <loc>https://www.carryone.top/categories/CSS/</loc>
+    <loc>https://www.carryone.top/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2022-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.carryone.top/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://www.carryone.top/categories/PTA-JavaScript/</loc>
     <lastmod>2022-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
