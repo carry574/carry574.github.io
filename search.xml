@@ -123,6 +123,8 @@ JVM可以识别的是字节码。</code></pre>
     <title>DAY03 笔记</title>
     <url>/2022/01/16/DAY03-%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p>1、Java语言的特性</p>
+<a id="more"></a>
+
 <pre><code>1.1、简单性
     在Java语言当中真正操作内存的是：JVM（Java虚拟机）
     所有的java程序都是运行在Java虚拟机当中的。
@@ -134,7 +136,7 @@ JVM可以识别的是字节码。</code></pre>
     不能直接操作内存。这种方式有优点也有缺点：
         优点：不容易导致内存泄漏。（简单了。）
         缺点：效率问题，包括驾驭感比较差。
-    &lt;!--more--&gt;
+
     飞机航行：
         如果是C语言表示程序员是飞机驾驶员。
         如果是Java语言表示程序员是飞机上的乘客。
@@ -404,10 +406,12 @@ java程序从开发到最终运行经历了什么？
     <title>DAY04  笔记</title>
     <url>/2022/01/16/DAY04-%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p>1、开发第一个Java程序：HelloWorld</p>
+<a id="more"></a>
+
 <pre><code>1.1、程序写完之后，一定要Ctrl + S 进行保存
     ⚠另外需要注意的是：Java源代码只要修改，必须重新编译。
     重新生成.class字节码文件。
-&lt;!--more--&gt;
+
 1.2、编译阶段
     怎么编译？使用什么命令？这个命令怎么用？
     需要使用的命令是：javac.exe（存放在C盘的Java目录里）
