@@ -2336,4 +2336,209 @@ to &#123; backgroung: yellow;&#125;
         <tag>CSS</tag>
       </tags>
   </entry>
+  <entry>
+    <title>【JavaScript学习笔记总结】</title>
+    <url>/2022/02/20/%E3%80%90JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93%E3%80%91/</url>
+    <content><![CDATA[<h3 id="JavaScript是什么？"><a href="#JavaScript是什么？" class="headerlink" title="JavaScript是什么？"></a>JavaScript是什么？</h3><p>Netscape在最初将其脚本语言命名为LiveScript，后来Netscape在与Sun合作之后将其改名为JavaScript。<strong>JavaScript最初受Java启发而开始设计的，目的之一就是“看上去像Java”，因此语法上有类似之处，一些名称和命名规范也借自Java。</strong>JavaScript与Java名称上的近似，是当时Netscape为了营销考虑与Sun微系统达成协议的结果。</p>
+<p>Java和JavaScript的关系就像张雨和张雨生的关系，只是名字很像。</p>
+<p>JavaScript 运行在客户端(浏览器)的编程语言</p>
+<hr>
+<h3 id="JavaScript现在的意义-应用场景"><a href="#JavaScript现在的意义-应用场景" class="headerlink" title="JavaScript现在的意义(应用场景)"></a>JavaScript现在的意义(应用场景)</h3><p>JavaScript 发展到现在几乎无所不能。</p>
+<ol>
+<li>网页特效</li>
+<li>服务端开发(Node.js)</li>
+<li>命令行工具(Node.js)</li>
+<li>桌面程序(Electron)</li>
+<li>App(Cordova)</li>
+<li>控制硬件-物联网(Ruff)</li>
+<li>游戏开发(cocos2d-js)</li>
+</ol>
+<hr>
+<h3 id="JavaScript和HTML、CSS的区别"><a href="#JavaScript和HTML、CSS的区别" class="headerlink" title="JavaScript和HTML、CSS的区别"></a>JavaScript和HTML、CSS的区别</h3><ol>
+<li>HTML：提供网页的结构，提供网页中的内容</li>
+<li>CSS: 用来美化网页</li>
+<li>JavaScript: 可以用来控制网页内容，给网页增加动态的效果</li>
+</ol>
+<hr>
+<h3 id="JavaScript的组成"><a href="#JavaScript的组成" class="headerlink" title="JavaScript的组成"></a>JavaScript的组成</h3><ul>
+<li>ECMAscript</li>
+<li>BOM</li>
+<li>DOM</li>
+</ul>
+<p>BOM - 浏览器对象模型<br>一套操作浏览器功能的API<br>通过BOM可以操作浏览器窗口，比如：弹出框、控制浏览器跳转、获取分辨率等</p>
+<p>DOM - 文档对象模型<br>一套操作页面元素的API<br>DOM可以把HTML看做是文档树，通过DOM提供的API可以对树上的节点进行操作</p>
+<hr>
+<h3 id="JavaScript的书写方式"><a href="#JavaScript的书写方式" class="headerlink" title="JavaScript的书写方式"></a>JavaScript的书写方式</h3><ol>
+<li>写在行内<pre class="line-numbers language-none"><code class="language-none">&lt;input type&#x3D;&quot;button&quot; value&#x3D;&quot;按钮&quot; onclick&#x3D;&quot;alert(&#39;Hello World&#39;)&quot; &#x2F;&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>写在script标签<pre class="line-numbers language-none"><code class="language-none">&lt;head&gt;
+&lt;script&gt;
+ alert(&#39;Hello World!&#39;);
+&lt;&#x2F;script&gt;
+&lt;&#x2F;head&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li>外部js文件在页面引入（script标签内不能写js代码）<pre class="line-numbers language-none"><code class="language-none">&lt;script src&#x3D;&quot;main.js&quot;&gt;&lt;&#x2F;script&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+</li>
+</ol>
+<hr>
+<h3 id="计算机组成"><a href="#计算机组成" class="headerlink" title="计算机组成"></a>计算机组成</h3><h4 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h4><p>应用软件：浏览器(Chrome/IE/Firefox)、QQ、Sublime、Word</p>
+<p>系统软件：Windows、Linux、mac OSX</p>
+<h4 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h4><p>三大件：CPU、内存、硬盘 – 主板</p>
+<p>输入设备：鼠标、键盘、手写板、摄像头等</p>
+<p>输出设备：显示器、打印机、投影仪等</p>
+<hr>
+<h3 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h3><h4 id="什么是变量？"><a href="#什么是变量？" class="headerlink" title="什么是变量？"></a>什么是变量？</h4><ul>
+<li><p>什么是变量</p>
+<ul>
+<li>变量是计算机内存中存储数据的标识符，根据变量名称可以获取到内存中存储的数据</li>
+</ul>
+</li>
+<li><p>为什么要使用变量</p>
+<ul>
+<li>使用变量可以方便的获取或者修改内存中的数据</li>
+</ul>
+</li>
+</ul>
+<h4 id="如何使用变量"><a href="#如何使用变量" class="headerlink" title="如何使用变量"></a>如何使用变量</h4><ul>
+<li>声明变量<pre class="line-numbers language-none"><code class="language-none">var age;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>变量赋值<pre class="line-numbers language-none"><code class="language-none">var age;
+age &#x3D; 18;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li>
+<li>同时声明多个变量<pre class="line-numbers language-none"><code class="language-none">var age, name, sex;
+age &#x3D; 10;
+name &#x3D; &#39;zs&#39;;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li>
+<li>同时声明多个变量并赋值<pre class="line-numbers language-none"><code class="language-none">var age, name, sex;
+age &#x3D; 10;
+name &#x3D; &#39;zs&#39;;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+</li>
+</ul>
+<hr>
+<h3 id="变量的命名规则和规范"><a href="#变量的命名规则和规范" class="headerlink" title="变量的命名规则和规范"></a>变量的命名规则和规范</h3><p>规则 - 必须遵守的，不遵守会报错</p>
+<ul>
+<li><strong>由字母、数字、下划线、$符号组成，不能以数字开头</strong></li>
+<li>不能是关键字和保留字，例如：for、while。</li>
+<li>区分大小写</li>
+</ul>
+<p>规范 - 建议遵守的，不遵守不会报错</p>
+<ul>
+<li>变量名必须有意义</li>
+<li>遵守驼峰命名法。首字母小写，后面单词的首字母需要大写。例如：userName、userPassword</li>
+</ul>
+<hr>
+<h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><h4 id="简单数据类型"><a href="#简单数据类型" class="headerlink" title="简单数据类型"></a>简单数据类型</h4><p>Number、String、Boolean、Undefined、Null</p>
+<h5 id="Number类型"><a href="#Number类型" class="headerlink" title="Number类型"></a>Number类型</h5><ul>
+<li><p>数值字面量：数值的固定值的表示法</p>
+<p>110 1024 60.5</p>
+</li>
+<li><p>进制</p>
+<pre class="line-numbers language-none"><code class="language-none">十进制
+  var num &#x3D; 9;
+  进行算数计算时，八进制和十六进制表示的数值最终都将被转换成十进制数值。
+十六进制
+  var num &#x3D; 0xA;
+  数字序列范围：0~9以及A~F
+八进制
+  var num1 &#x3D; 07;   &#x2F;&#x2F; 对应十进制的7
+  var num2 &#x3D; 019;  &#x2F;&#x2F; 对应十进制的19
+  var num3 &#x3D; 08;   &#x2F;&#x2F; 对应十进制的8
+  数字序列范围：0~7
+  如果字面值中的数值超出了范围，那么前导零将被忽略，后面的数值将被当作十进制数值解析<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li><p>浮点数</p>
+<pre class="line-numbers language-none"><code class="language-none">浮点数
+  var n &#x3D; 5e-324;   &#x2F;&#x2F; 科学计数法  5乘以10的-324次方  
+浮点数值的最高精度是 17 位小数，但在进行算术计算时其精确度远远不如整数
+ var result &#x3D; 0.1 + 0.2;    &#x2F;&#x2F; 结果不是 0.3，而是：0.30000000000000004
+ console.log(0.07 * 100);
+ 不要判断两个浮点数是否相等<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li><p>数值范围</p>
+<pre class="line-numbers language-none"><code class="language-none">最小值：Number.MIN_VALUE，这个值为： 5e-324
+最大值：Number.MAX_VALUE，这个值为： 1.7976931348623157e+308
+无穷大：Infinity
+无穷小：-Infinity<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="String类型"><a href="#String类型" class="headerlink" title="String类型"></a>String类型</h5></li>
+<li><p>字符串字面量</p>
+<p>‘程序猿’，‘程序媛’, “程序猿NX”</p>
+</li>
+<li><p>字符串长度</p>
+<p>使用length来获取字符串长度</p>
+<pre class="line-numbers language-none"><code class="language-none"> var str &#x3D; &#39;程序猿 Hello World&#39;;
+console.log(str.length);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+</li>
+<li><p>字符串拼接</p>
+<p>字符串用+号进行拼接</p>
+<pre class="line-numbers language-none"><code class="language-none">console.log(11 + 11);
+console.log(&#39;hello&#39; + &#39; world&#39;);
+console.log(&#39;100&#39; + &#39;100&#39;);
+console.log(&#39;11&#39; + 11);
+console.log(&#39;male:&#39; + true);
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ol>
+<li>两边只要有一个是字符串，那么+就是字符串拼接功能</li>
+<li>两边如果都是数字，那么就是算术功能。</li>
+</ol>
+</li>
+</ul>
+<h5 id="Boolean类型"><a href="#Boolean类型" class="headerlink" title="Boolean类型"></a>Boolean类型</h5><p>Boolean字面量： true和false，区分大小写</p>
+<p>计算机内部存储：true为1，false为0</p>
+<h5 id="Undefined和Null"><a href="#Undefined和Null" class="headerlink" title="Undefined和Null"></a>Undefined和Null</h5><p>undefined表示一个声明了没有赋值的变量，变量只声明的时候值默认是undefined</p>
+<p>null表示一个空，变量的值如果想为null，必须手动设置</p>
+<h4 id="复杂数据类型"><a href="#复杂数据类型" class="headerlink" title="复杂数据类型"></a>复杂数据类型</h4><p>Object</p>
+<h4 id="获取变量的类型"><a href="#获取变量的类型" class="headerlink" title="获取变量的类型"></a>获取变量的类型</h4><p>  typeof<br>  <pre class="line-numbers language-none"><code class="language-none">var age &#x3D; 18;
+console.log(typeof age);  &#x2F;&#x2F; &#39;number&#39;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></p>
+<hr>
+<h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3><h4 id="单行注释"><a href="#单行注释" class="headerlink" title="单行注释"></a>单行注释</h4><p>用来描述下面一个或多行代码的作用</p>
+<pre class="line-numbers language-none"><code class="language-none">&#x2F;&#x2F; 这是一个变量
+var name &#x3D; &#39;hm&#39;;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h4 id="多行注释"><a href="#多行注释" class="headerlink" title="多行注释"></a>多行注释</h4><p>用来注释多条代码</p>
+<pre class="line-numbers language-none"><code class="language-none">&#x2F;*
+var age &#x3D; 18;
+var name &#x3D; &#39;zs&#39;;
+console.log(name, age);
+*&#x2F;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<hr>
+<h3 id="数据类型转换"><a href="#数据类型转换" class="headerlink" title="数据类型转换"></a>数据类型转换</h3><h4 id="转换为字符串类型"><a href="#转换为字符串类型" class="headerlink" title="转换为字符串类型"></a>转换为字符串类型</h4><ul>
+<li><p>toString()</p>
+<pre class="line-numbers language-none"><code class="language-none">var num &#x3D; 5;
+console.log(num.toString());<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+</li>
+<li><p>String()</p>
+<pre class="line-numbers language-none"><code class="language-none">String()函数存在的意义：有些值没有toString()，这个时候可以使用String()。比如：undefined和null<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><p>拼接字符串方式</p>
+<p>num + “”，当 + 两边一个操作符是字符串类型，一个操作符是其它类型的时候，会先把其它类型转换成字符串再进行字符串拼接，返回字符串。</p>
+</li>
+</ul>
+<h4 id="转换成数值类型"><a href="#转换成数值类型" class="headerlink" title="转换成数值类型"></a>转换成数值类型</h4><ul>
+<li><p>Number()</p>
+<pre class="line-numbers language-none"><code class="language-none">Number()可以把任意值转换成数值，如果要转换的字符串中有一个不是数值的字符，返回NaN<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li><p>parseInt()</p>
+  <pre class="line-numbers language-none"><code class="language-none">var num1 &#x3D; parseInt(&quot;12.3abc&quot;);  &#x2F;&#x2F; 返回12，如果第一个字符是数字会解析知道遇到非数字结束
+var num2 &#x3D; parseInt(&quot;abc123&quot;);   &#x2F;&#x2F; 返回NaN，如果第一个字符不是数字或者符号就返回NaN<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+</li>
+<li><p>parseFloat()</p>
+<pre class="line-numbers language-none"><code class="language-none">parseFloat()把字符串转换成浮点数
+parseFloat()和parseInt非常相似，不同之处在与parseFloat会解析第一个. 遇到第二个.或者非数字结束,如果解析的内容里只有整数，解析成整数<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+</li>
+<li><p>+,-0等运算</p>
+<pre class="line-numbers language-none"><code class="language-none">var str &#x3D; &#39;500&#39;;
+console.log(+str);        &#x2F;&#x2F; 取正
+console.log(-str);        &#x2F;&#x2F; 取负
+console.log(str - 0);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+<li><p>转换成布尔类型</p>
+<ul>
+<li>Boolean()</li>
+<li>0 ‘’(空字符串) null undefined NaN 会转换成false 其它都会转换成true</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>【学习笔记】</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
 </search>
