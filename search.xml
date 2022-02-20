@@ -2533,6 +2533,146 @@ console.log(str - 0);<span aria-hidden="true" class="line-numbers-rows"><span></
 </ul>
 </li>
 </ul>
+<h3 id="操作符"><a href="#操作符" class="headerlink" title="操作符"></a>操作符</h3><h4 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h4> <pre class="line-numbers language-none"><code class="language-none">+ - * &#x2F; %  <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h4 id="一元运算符"><a href="#一元运算符" class="headerlink" title="一元运算符"></a>一元运算符</h4><p>  一元运算符：只有一个操作数的运算符</p>
+<p>  5 + 6 两个操作数的运算符 二元运算符</p>
+<p>  ++ 自身加1</p>
+<p>  –自身减1</p>
+<ul>
+<li><p>前置++</p>
+<pre class="line-numbers language-none"><code class="language-none"> var num1 &#x3D; 5;
+++ num1; 
+
+var num2 &#x3D; 6;
+console.log(num1 + ++ num2);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+<li><p>后置++</p>
+<p> &lt;!–hexoPostRenderEscape:<pre class="line-numbers language-none"><code class="language-none">var num1 &#x3D; 5;</p>
+</li>
+</ul>
+<p>++ num1; </p>
+<p>var num2 &#x3D; 6;<br>console.log(num1 + ++ num2);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>:hexoPostRenderEscape–&gt;</p>
+<ol>
+<li>前置++：先加1，后参与运算</li>
+<li>后置++：先参与运算，后加1<br>上面两个理解后，下面两个自通</li>
+<li>前置– ：先减1，后参与运算</li>
+<li>后置– ：先参与运算，后减1</li>
+</ol>
+<h4 id="逻辑运算符-布尔运算符"><a href="#逻辑运算符-布尔运算符" class="headerlink" title="逻辑运算符(布尔运算符)"></a>逻辑运算符(布尔运算符)</h4><pre class="line-numbers language-none"><code class="language-none">&amp;&amp; 与 两个操作数同时为true，结果为true，否则都是false
+|| 或 两个操作数有一个为true，结果为true，否则为false
+!  非  取反<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h4 id="关系运算符-比较运算符"><a href="#关系运算符-比较运算符" class="headerlink" title="关系运算符(比较运算符)"></a>关系运算符(比较运算符)</h4><pre class="line-numbers language-none"><code class="language-none">&lt;  &gt;  &gt;&#x3D;  &lt;&#x3D; &#x3D;&#x3D; !&#x3D; &#x3D;&#x3D;&#x3D; !&#x3D;&#x3D;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><strong>==与===的区别：==只进行值得比较，===类型和值同时相等，则相等</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">var result &#x3D; &#39;55&#39; &#x3D;&#x3D; 55;      &#x2F;&#x2F; true
+var result &#x3D; &#39;55&#39; &#x3D;&#x3D;&#x3D; 55;     &#x2F;&#x2F; false 值相等，类型不相等
+var result &#x3D; 55 &#x3D;&#x3D;&#x3D; 55;     &#x2F;&#x2F; true<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+
+<h4 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h4><p>= += -= *= /= %=</p>
+<pre class="line-numbers language-none"><code class="language-none">例如：
+var num &#x3D; 0;
+num +&#x3D; 5;    &#x2F;&#x2F;相当于  num &#x3D; num + 5;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h4 id="运算符的优先级"><a href="#运算符的优先级" class="headerlink" title="运算符的优先级"></a>运算符的优先级</h4><p><strong>优先级从高到底</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">1. ()  优先级最高
+2. 一元运算符  ++   --   !
+3. 算数运算符  先*  &#x2F;  %   后 +   -
+4. 关系运算符  &gt;   &gt;&#x3D;   &lt;   &lt;&#x3D;
+5. 相等运算符   &#x3D;&#x3D;   !&#x3D;    &#x3D;&#x3D;&#x3D;    !&#x3D;&#x3D;
+6. 逻辑运算符 先&amp;&amp;   后||
+7. 赋值运算符<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-none"><code class="language-none">&#x2F;&#x2F; 练习1：
+4 &gt;&#x3D; 6 || &#39;人&#39; !&#x3D; &#39;阿凡达&#39; &amp;&amp; !(12 * 2 &#x3D;&#x3D; 144) &amp;&amp; true
+&#x2F;&#x2F; 练习2：
+var num &#x3D; 10;
+5 &#x3D;&#x3D; num &#x2F; 2 &amp;&amp; (2 + 2 * num).toString() &#x3D;&#x3D;&#x3D; &#39;22&#39;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="流程控制"><a href="#流程控制" class="headerlink" title="流程控制"></a>流程控制</h3><p>顺序结构： 从上到下执行的代码就是顺序结构，程序默认就是由上到下顺序执行的</p>
+<p>分支结构： 根据不同的情况，执行对应代码</p>
+<p>循环结构： 循环结构：重复做一件事情</p>
+<h3 id="分支结构"><a href="#分支结构" class="headerlink" title="分支结构"></a>分支结构</h3><p><strong>根据不同的情况，执行对应代码</strong></p>
+<h4 id="if语句"><a href="#if语句" class="headerlink" title="if语句"></a>if语句</h4><p>语法结构：</p>
+<pre class="line-numbers language-none"><code class="language-none">if (&#x2F;* 条件表达式 *&#x2F;) &#123;
+  &#x2F;&#x2F; 执行语句
+&#125;
+
+if (&#x2F;* 条件表达式 *&#x2F;)&#123;
+  &#x2F;&#x2F; 成立执行语句
+&#125; else &#123;
+  &#x2F;&#x2F; 否则执行语句
+&#125;
+
+if (&#x2F;* 条件1 *&#x2F;)&#123;
+  &#x2F;&#x2F; 成立执行语句
+&#125; else if (&#x2F;* 条件2 *&#x2F;)&#123;
+  &#x2F;&#x2F; 成立执行语句
+&#125; else if (&#x2F;* 条件3 *&#x2F;)&#123;
+  &#x2F;&#x2F; 成立执行语句
+&#125; else &#123;
+  &#x2F;&#x2F; 最后默认执行语句
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ul>
+<li>案例：<ol>
+<li>求两个数的最大数</li>
+<li>判断一个数是偶数还是奇数</li>
+<li>分数转换，把百分制转换成ABCDE &lt;60 E 60-70 D 70-80 C 80-90 B 90 - 100 A</li>
+</ol>
+</li>
+<li>作业：<ol>
+<li>判断一个年份是闰年还是平年</li>
+<li>闰年：能被4整除，但不能被100整除的年份 或者 能被400整除的年份</li>
+<li>判断一个人的年龄是否满18岁(是否成年)</li>
+</ol>
+</li>
+</ul>
+<h4 id="三元运算符"><a href="#三元运算符" class="headerlink" title="三元运算符"></a>三元运算符</h4><pre class="line-numbers language-none"><code class="language-none">表达式1 ? 表达式2 : 表达式3<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>是对if……else语句的一种简化写法</p>
+<p>作业：</p>
+<ol>
+<li>是否年满18岁</li>
+<li>从两个数中找最大值</li>
+</ol>
+<h4 id="Switch语句"><a href="#Switch语句" class="headerlink" title="Switch语句"></a>Switch语句</h4><p>语法格式：</p>
+<pre class="line-numbers language-none"><code class="language-none">switch (expression) &#123;
+  case 常量1:
+    语句;
+    break;
+  case 常量2:
+    语句;
+    break;
+  case 常量3:
+    语句;
+    break;
+  …
+  case 常量n:
+    语句;
+    break;
+  default:
+    语句;
+    break;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-none"><code class="language-none">break可以省略，如果省略，代码会继续执行下一个case
+switch 语句在比较值时使用的是全等操作符, 因此不会发生类型转换（例如，字符串&#39;10&#39; 不等于数值 10）<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<ul>
+<li>案例：<ol>
+<li>显示星期几</li>
+<li>素质教育（把分数变成ABCDE）千万不要写100个case哟</li>
+</ol>
+</li>
+</ul>
+<h4 id="布尔类型的隐式转换"><a href="#布尔类型的隐式转换" class="headerlink" title="布尔类型的隐式转换"></a>布尔类型的隐式转换</h4><p>流程控制语句会把后面的值隐式转换成布尔类型</p>
+<pre class="line-numbers language-none"><code class="language-none">转换为true   非空字符串  非0数字  true 任何对象
+转换成false  空字符串  0  false  null  undefined<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-none"><code class="language-none">&#x2F;&#x2F; 结果是什么？
+var a &#x3D; !!&#39;123&#39;;
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-none"><code class="language-none">var message;
+&#x2F;&#x2F; 会自动把message转换成false
+if (message) &#123;     
+  &#x2F;&#x2F; todo...
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 ]]></content>
       <categories>
         <category>【学习笔记】</category>
